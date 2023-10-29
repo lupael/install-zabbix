@@ -33,7 +33,7 @@ in log.
 * `sudo service zabbix-server start`
 * Check /tmp/zabbix_server.log
 
-More [configuration](https://techexpert.tips/category/zabbix) options!
+
 
 ## Download project
 * `cd ~/`
