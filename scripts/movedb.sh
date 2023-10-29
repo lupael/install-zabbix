@@ -1,14 +1,15 @@
 #!/bin/sh
 #
-# Created on June 6, 2020
+# Created on 10 Oct, 2023
 #
-# @author: sgoldsmith
 #
-# Move MySQL database directory from default location to another location. This
-# script assumes you ran install.sh already.
 #
-# Steven P. Goldsmith
-# sgjava@gmail.com
+# Install Zabbix Agent 2 on Ubuntu 22.05. This may work on other versions and
+# Debian like distributions. Change variables below to suit your needs. This
+# script will detect previous install and upgrade the agent.
+#
+# 
+# support@ispbills.com
 #
 
 # MySQL data destination directory
