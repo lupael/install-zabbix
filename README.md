@@ -37,7 +37,7 @@ More [configuration](https://techexpert.tips/category/zabbix) options!
 
 ## Download project
 * `cd ~/`
-* `git clone --depth 1 https://github.com/sgjava/install-zabbix.git`
+* `git clone --depth 1 https://github.com/lupael/install-zabbix.git`
 
 ## Install script
 This assumes a fresh OS install. You should try the scripts out on a VM to play
