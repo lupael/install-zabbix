@@ -1,16 +1,15 @@
 #!/bin/sh
 #
-# Created on June 5, 2020
+# Created on 10 Oct, 2023
 #
-# @author: sgoldsmith
 #
-# Install dependencies, mysql, Zabbix Server 6.2.x and Zabbix Agent 2 on Ubuntu
-# 22.05. This may work on other versions and Debian like distributions.
 #
-# Change variables below to suit your needs.
+# Install Zabbix Agent 2 on Ubuntu 22.05. This may work on other versions and
+# Debian like distributions. Change variables below to suit your needs. This
+# script will detect previous install and upgrade the agent.
 #
-# Steven P. Goldsmith
-# sgjava@gmail.com
+# 
+# support@ispbills.com
 #
 
 # MySQL root password
@@ -32,7 +31,7 @@ zabbixarchive=$(basename "$zabbixurl")
 srcdir="/usr/local/src"
 
 # PHP timezone
-phptz="America/New_York"
+phptz="Asia/Dhaka"
 
 # Zabbix server configuration
 zabbixconf="/usr/local/etc/zabbix_server.conf"
